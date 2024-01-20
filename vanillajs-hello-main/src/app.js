@@ -12,10 +12,10 @@ let noun = ["jogger", "racoon"];
 function DominiosDisponibles(let1, let2, let3) {
   let combinaciones = [];
 
-  for (let index = 0; index < let1.length; index++) {
-    for (let index = 0; index < let1.length; index++) {
-      for (let index = 0; index < let1.length; index++) {
-        combinaciones.push(let1[index] + let2[index] + let3[index] + ".com");
+  for (let A = 0; A < let1.length; A++) {
+    for (let B = 0; B < let2.length; B++) {
+      for (let C = 0; C < let3.length; C++) {
+        combinaciones.push(let1[A] + let2[B] + let3[C] + ".com");
       }
     }
   }
